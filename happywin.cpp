@@ -172,7 +172,7 @@ DWORD WINAPI patblt(LPVOID lpParam)
 	}
 }
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd) {
-	if (MessageBoxW(NULL, L"sugarwin.exe, Run?", L"happywin.exe", MB_YESNO | MB_ICONEXCLAMATION) == IDNO)
+	if (MessageBoxW(NULL, L"happywin.exe, Run?", L"happywin.exe", MB_YESNO | MB_ICONEXCLAMATION) == IDNO)
 	{
 		ExitProcess(0);
 	}
